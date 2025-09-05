@@ -2,10 +2,10 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } }
+  { params }: { params: Promise<{ id: string }> }
 ) {
   try {
-    const movieId = params.id;
+    const { id: movieId } = await params;
     const { searchParams } = new URL(request.url);
     const page = searchParams.get("page") || "1";
     const apiKey = process.env.TMDB_API_KEY;
