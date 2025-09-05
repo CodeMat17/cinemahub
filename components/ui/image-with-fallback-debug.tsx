@@ -33,7 +33,7 @@ export function ImageWithFallbackDebug({
   backdropSize = "w1280",
   imageType = "poster",
 }: ImageWithFallbackDebugProps) {
-  const [imageSrc, setImageSrc] = useState<string>(() => {
+  const [imageSrc] = useState<string>(() => {
     if (!src) {
       console.log("No src provided, using placeholder");
       return "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAwIiBoZWlnaHQ9Ijc1MCIgdmlld0JveD0iMCAwIDUwMCA3NTAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxyZWN0IHdpZHRoPSI1MDAiIGhlaWdodD0iNzUwIiBmaWxsPSIjMzc0MTUxIi8+CjxwYXRoIGQ9Ik0yMDAgMzAwSDMwMFY0NTBIMjAwVjMwMFoiIGZpbGw9IiM2QjcyODAiLz4KPHBhdGggZD0iTTIyMCAzMjBIMjgwVjQzMEgyMjBWMzIwWiIgZmlsbD0iIzlDQTNBRiIvPgo8L3N2Zz4K";
