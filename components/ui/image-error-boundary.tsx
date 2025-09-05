@@ -28,7 +28,7 @@ export class ImageErrorBoundary extends Component<
     return { hasError: true, error };
   }
 
-  componentDidCatch(error: Error, errorInfo: any) {
+  componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
     console.error("Image Error Boundary caught an error:", error, errorInfo);
   }
 

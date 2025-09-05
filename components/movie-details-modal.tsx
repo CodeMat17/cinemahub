@@ -250,7 +250,7 @@ export function MovieDetailsModal({
                       </p>
                       {movieDetails?.tagline && (
                         <p className='text-lg italic text-primary mt-4'>
-                          "{movieDetails.tagline}"
+                          &quot;{movieDetails.tagline}&quot;
                         </p>
                       )}
                     </motion.div>

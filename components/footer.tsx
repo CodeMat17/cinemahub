@@ -1,7 +1,6 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
-import { ExternalLink, Film, Github } from "lucide-react";
+import { ExternalLink } from "lucide-react";
 
 export function Footer() {
   return (

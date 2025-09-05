@@ -62,7 +62,7 @@ export function ImageWithFallbackDebug({
     console.log("Image loaded successfully:", imageSrc);
   };
 
-  const handleError = (e: any) => {
+  const handleError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
     console.error("Image failed to load:", imageSrc, e);
   };
 

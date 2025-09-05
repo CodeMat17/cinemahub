@@ -167,7 +167,7 @@ export function TrailerModal({ movie, isOpen, onClose }: TrailerModalProps) {
                         No Trailers Available
                       </h3>
                       <p className='text-muted-foreground mb-4'>
-                        We couldn't find any official trailers for this movie.
+                        We couldn&apos;t find any official trailers for this movie.
                       </p>
                       <Button
                         variant='outline'
