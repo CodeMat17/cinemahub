@@ -140,7 +140,7 @@ export function HeroSection({
             backdropSize='original'
           />
           {/* Perfect color blending gradients */}
-          <div className='absolute inset-0 bg-gradient-to-r from-background/90 via-background/60 to-transparent sm:from-background/85 sm:via-background/50 dark:from-background/95 dark:via-background/70 dark:sm:from-background/90 dark:sm:via-background/50' />
+          <div className='absolute inset-0 bg-gradient-to-r from-background/70 via-background/60 to-transparent sm:from-background/60 sm:via-background/30 dark:from-background/60 dark:via-background/70 dark:sm:from-background/90 dark:sm:via-background/50' />
           <div className='absolute inset-0 bg-gradient-to-t from-background/80 via-background/20 to-transparent dark:from-background/90 dark:via-background/30' />
           {/* Subtle overlay for enhanced text readability */}
           <div className='absolute inset-0 bg-gradient-to-r from-white/10 via-white/5 to-transparent dark:hidden' />
